@@ -1,0 +1,8 @@
+Iterative:
+
+In my iterative function, each array element is compared to half of the array, meaning T(n) = O(n/2)
+
+Recursive:
+
+In my recursive function, each element is compared n/2 + n/4 + n/8 ... + n/2^i where i is the number of subdivisions.
+The summation of these comparisons is simply n, so T(n) = O(n) 
